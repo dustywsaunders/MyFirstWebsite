@@ -1,0 +1,191 @@
+/* general */
+
+html {
+  font-family: "Quicksand",Helvetica, sans-serif;
+  font-size: 10px;
+  margin: 0 auto;
+  background-color: gainsboro;
+  max-width: 1400px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+/* header */
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-style: italic;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 20vh;
+}
+
+header p {
+  color: white;
+  font-size: 3.5rem;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.myName {
+  color: aqua;
+  font-size: 4rem;
+  text-align: left;
+  padding-left: 10%;
+  text-shadow: 2px 2px 30px black;
+}
+
+header {
+  height: 90vh;
+  max-height: 800px;
+  min-height: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+}
+
+.header {
+  background-image: url(../images/backgrounda.jpg);
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/* navigation bar */
+
+nav {
+  background-color: rgba(128, 128, 128, 0.8);
+  height: 50px;
+  margin-top: -45px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navMenu {
+  align-content: center;
+  display: flex;
+  font-size: 1.5rem;
+  height: 30px;
+  list-style: none;
+  padding-top: 15px;
+  justify-content: space-around;
+}
+
+.navItem a {
+  color: white;
+  text-decoration: none;
+}
+
+.navItem a:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
+/* body */
+
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  color: dimgrey;
+  font-size: 2.4rem;
+  font-style: italic;
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+section p {
+  color: dimgrey;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 80vw;
+  max-width: 400px;
+}
+
+section p a {
+  color: dimgrey;
+}
+
+section p a:hover {
+  color: aqua;
+}
+
+/* contacts */
+
+.contactpanel {
+  height: 45vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactlist {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.contactlist a {
+  text-decoration: none;
+}
+
+.contactlist a:hover {
+  border-bottom: 1px dotted grey;
+}
+
+/* footer */
+
+.toTop {
+  font-size: 1.5rem;
+  height: 50px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.toTop a {
+color: grey;
+text-decoration: none;
+}
+
+.toTop a:hover {
+color: aqua;
+}
+
+footer {
+  background-color: lightgrey;
+  color: grey;
+  font-size: 1.2rem;
+  height: 70px;
+  margin: 0 auto;
+  padding-top: 5px;
+  text-align: center;
+}
+
+footer a {
+  color: grey;
+}
+
+footer a:hover {
+  color: aqua;
+}
